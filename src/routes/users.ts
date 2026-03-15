@@ -5,7 +5,7 @@ import { requirePermission, requireRole } from '../middleware/rbac';
 
 const router = Router();
 
-// All routes require authentication
+//route require authentication
 router.use(authMiddleware);
 
 
